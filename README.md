@@ -1,4 +1,4 @@
-# Proyecto inicial - Curso de RXJS
+# Proyecto inicial - RXJS
 
 * Lo primero que debemos de hacer después de descargar el código es ejecutar el comando:
 
@@ -23,6 +23,3 @@ Por defecto, el puerto que configuré para este proyecto es el ```8081```, pero 
 ```
 
 Simplemente cambian el puerto por el que ustedes necesiten y listo. (lógicamente graban los cambios antes de ejecutar el ```npm start``` nuevamente)
-
-
-# typescript-rxjs
