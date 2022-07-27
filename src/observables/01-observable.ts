@@ -1,4 +1,4 @@
-import { Observable, Observer } from 'rxjs';
+import { interval, map, Observable, Observer } from 'rxjs';
 
 const observer: Observer<any> = {
   next: value => console.log('[observer] next:', value),
@@ -39,3 +39,11 @@ const obs$ = new Observable<string>(subs => {
 
 // Con subscriber
 obs$.subscribe(observer);
+
+// Observable con unsubscribe
+// const observable = interval(1000).pipe(map(x => Math.random()));
+// const subscription = observable.subscribe(console.log);
+
+// setTimeout(() => {
+//   subscription.unsubscribe();
+// }, 5000);
